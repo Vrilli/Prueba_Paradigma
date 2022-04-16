@@ -44,8 +44,6 @@ export function register(email, password, username) {
 }
 
 
-
-
 export function login(email, password) {
   const auth = getAuth()
   signInWithEmailAndPassword(auth, email, password)
